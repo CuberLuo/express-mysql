@@ -25,10 +25,7 @@ module.exports = {
           if (userHashCode == hashCode) {
             response.send({
               code: 10000,
-              msg: '登录成功',
-              data: {
-                token: '661fe75115e45a3520ec74121898e2af'
-              }
+              msg: '登录成功'
             })
           } else {
             response.send({
