@@ -1,0 +1,14 @@
+{
+  "name": "express-mysql",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "LuoJuntao",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mysql": "^2.18.1"
+  }
+}
