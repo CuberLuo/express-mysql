@@ -11,6 +11,8 @@ module.exports = {
     })
 
     connection.query(sql, params, function (err, results) {
+      // console.log(sql)
+      // console.log(params)
       if (err) {
         console.log('数据操作失败')
       }

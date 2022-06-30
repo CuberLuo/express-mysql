@@ -27,7 +27,7 @@ module.exports = {
             'insert into ljt_administrator(username,password,salt) values(?,?,?)',
             [username, hashCode, salt],
             function (results) {
-              if (results.affectedRows == 1) {
+              if (results.affectedRows === 1) {
                 response.send({
                   code: 10000,
                   msg: '注册成功'
