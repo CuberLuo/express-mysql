@@ -22,4 +22,8 @@ router.get('/getAllClass', controller.getAllClass)
 
 router.post('/getClassCourse', controller.getClassCourse)
 
+router.post('/getStuRank', controller.getStuRank)
+
+router.post('/getAvg', controller.getAvg)
+
 module.exports = router

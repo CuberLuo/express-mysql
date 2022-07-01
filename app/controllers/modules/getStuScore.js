@@ -3,7 +3,7 @@ module.exports = {
   getStuScore: (request, response) => {
     const Sno = request.body.Sno
     const ScoreYear = request.body.ScoreYear
-    console.log(Sno + ' ' + ScoreYear)
+    // console.log(Sno + ' ' + ScoreYear)
     const sql1 = `
 			SELECT s.Cno,c.Cname,s.Score FROM 
 			ljt_stu_score s,
@@ -15,7 +15,7 @@ module.exports = {
     connection.query(sql1, [Sno, '%' + ScoreYear + '%'], function (results) {
       var oneResults = results
       var arr = []
-      console.log(oneResults)
+      // console.log(oneResults)
       if (oneResults.length === 0) {
         response.send({
           code: 11000,

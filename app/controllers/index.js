@@ -24,4 +24,8 @@ controller.getAllClass = require('./modules/getAllClass').getAllClass
 
 controller.getClassCourse = require('./modules/getClassCourse').getClassCourse
 
+controller.getStuRank = require('./modules/getStuRank').getStuRank
+
+controller.getAvg = require('./modules/getAvg').getAvg
+
 module.exports = controller
