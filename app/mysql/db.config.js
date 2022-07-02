@@ -14,4 +14,4 @@ const cloud_config = {
   database: '202003_ljt_mis'
 }
 
-module.exports = local_config
+module.exports = cloud_config
